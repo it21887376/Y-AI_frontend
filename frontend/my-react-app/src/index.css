@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: #77149d;
+  color: white;
+  padding: 5px 30px 5px 5px;
+  
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+
+
+
+.content-container {
+  float: left;
+  padding: 10px;
+  background-color: #e6d8ec;
+  height: 550px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+
+.content-container-bottom-button {
+  
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
